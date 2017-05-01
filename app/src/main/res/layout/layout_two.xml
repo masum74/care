@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fazlay.hackathon.ActivityTwo"
+    android:background="#44104D">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+
+        android:onClick="school1Clicked"
+        android:background="#5b1566"
+        android:id="@+id/gridLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School Name:"
+            android:id="@+id/textView4"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Updated:"
+            android:id="@+id/textView5"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bogura Pilot High School"
+            android:id="@+id/schoolName1"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01 March, 2017, 11.52 AM"
+            android:id="@+id/textView7"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textSize="16dp"
+            android:textColor="#ffffff" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="school2Clicked"
+        android:background="#5b1566"
+        android:layout_below="@+id/gridLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/gridLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School Name:"
+            android:id="@+id/textView13"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Updated:"
+            android:id="@+id/textView14"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chandpur Gov. School"
+            android:id="@+id/schoolName2"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28 Feb, 2017 , 08:07 AM"
+            android:id="@+id/textView9"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="school3Clicked"
+        android:background="#5b1566"
+        android:layout_below="@+id/gridLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/gridLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School Name:"
+            android:id="@+id/textView15"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Updated:"
+            android:id="@+id/textView16"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faridpur Tinshed School"
+            android:id="@+id/schoolName3"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02 March, 2017 , 09:25 AM"
+            android:id="@+id/textView18"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </GridLayout>
+
+
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textOn="Graph"
+        android:textOff="List"
+        android:textColor="#ffffff"
+        android:text="List"
+        android:background="#5b1566"
+        android:textStyle="bold"
+        android:onClick="switchOn" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="school4Clicked"
+        android:background="#5b1566"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/gridLayout3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gridLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School Name:"
+            android:id="@+id/textView2"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Updated:"
+            android:id="@+id/textView20"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haji Molla High School"
+            android:id="@+id/schoolName4"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01 March, 2017 , 11:25 AM"
+            android:id="@+id/textView22"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="school5Clicked"
+        android:background="#5b1566"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/gridLayout4"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School Name:"
+            android:id="@+id/textView23"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Updated:"
+            android:id="@+id/textView24"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chatokbari High School"
+            android:id="@+id/schoolName5"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 Feb, 2017 , 10:25 AM"
+            android:id="@+id/textView26"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="school6Clicked"
+        android:background="#5b1566"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School Name:"
+            android:id="@+id/textView27"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Updated:"
+            android:id="@+id/textView28"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kurmitola High School"
+            android:id="@+id/schoolName6"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26 Feb, 2017 , 01:08 PM"
+            android:id="@+id/textView30"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </GridLayout>
+
+</RelativeLayout>
